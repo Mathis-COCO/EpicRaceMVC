@@ -43,6 +43,10 @@ namespace App.Controllers
                 races,
                 "Liste de courses"
             );
+            var indexViewModel = new RaceListViewModel(
+                races,
+                "Liste de courses"
+            );
 
             return View("RaceList", raceListViewModel);
         }

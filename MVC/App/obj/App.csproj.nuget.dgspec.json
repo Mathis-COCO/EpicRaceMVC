@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj": {}
+    "C:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj": {
+    "C:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "c:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj",
+        "projectPath": "C:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\App.csproj",
         "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\obj\\",
+        "outputPath": "C:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
