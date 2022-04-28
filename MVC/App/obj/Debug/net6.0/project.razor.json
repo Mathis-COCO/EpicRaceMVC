@@ -16323,6 +16323,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\Views\\Cars\\VehicleList.cshtml",
+      "TargetPath": "Views\\Cars\\VehicleList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\mathi\\Documents\\Framework_web\\PROJET VOITURE\\EpicRaceMVC\\MVC\\App\\Views\\LoginReg\\Register.cshtml",
       "TargetPath": "Views\\LoginReg\\Register.cshtml",
       "FileKind": "mvc"
