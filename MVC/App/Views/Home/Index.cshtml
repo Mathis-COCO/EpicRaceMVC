@@ -1,0 +1,53 @@
+﻿@model App.ViewModels.RaceListViewModel
+
+@{
+    ViewData["Title"] = "HomePage";
+    Layout = "_Layout";
+}   
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                Race Name
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Heure
+            </th>
+            <th>
+                Places restantes
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.RaceList) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @item.EventDate.ToShortDateString()
+            </td>
+            <td>
+                @item.EventDate.ToShortTimeString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxPlaces)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+.toto[b-h2daim7ygw] {
+    color: red;
+}
+
+#page-container[b-h2daim7ygw] {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap[b-h2daim7ygw] {
+  padding-bottom: 2.5rem;
+}
+
+#footer[b-h2daim7ygw] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
