@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace App.Controllers
 {
-    public class RacesController : Controller
+    public class VehicleController : Controller
     {
         private readonly IRepository<Race> _raceRepository;
 
-        public RacesController(IRepository<Race> raceRepository)
+        public VehicleController(IRepository<Race> raceRepository)
         {
             _raceRepository = raceRepository;
         }
@@ -17,27 +17,6 @@ namespace App.Controllers
         public ActionResult Index()
         {
             var races = _raceRepository.GetAll();
-            // var races = new List<Race>()
-            // {
-            //     new Race()
-            //     {
-            //         Id = 1,
-            //         Name = "Ma course 123",
-            //         EventDate = new DateTime(2022, 04, 02)
-            //     },
-            //     new Race()
-            //     {
-            //         Id = 2,
-            //         Name = "Ma super pas course",
-            //         EventDate = new DateTime(2022, 02, 02)
-            //     },
-            //     new Race()
-            //     {
-            //         Id = 3,
-            //         Name= "Ma course pourrie",
-            //         EventDate = new DateTime(2022, 04, 02)
-            //     }
-            // };
 
             var raceListViewModel = new RaceListViewModel(
                 races,

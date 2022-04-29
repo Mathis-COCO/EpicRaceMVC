@@ -14,5 +14,7 @@ namespace App.ViewModels
 
         [Required(ErrorMessage = "Veuillez préciser le nombre de places")]
         public int RacePlaces { get; set; }
+        public int Latitude { get; set; }
+        public int Longitude { get; set; }
     }
 }
