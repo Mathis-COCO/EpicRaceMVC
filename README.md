@@ -45,3 +45,7 @@ Le site web présente différentes fonctionnalités telles que:
 # Preview du site
 
 La preview du site sera publiée lorsque celui-ci sera finalisé.
+
+# Groupe 
+
+Abeille Paul-Antoine | Adonaï Killian | Coco Mathis | Mareschal Guillaume
