@@ -1,6 +1,7 @@
 # EpicRace
 
 Ce repo est dédié à un projet de développement web visant à créer un site de création de courses de voitures. 🏎️
+Le groupe qui a réalisé ce projet est composé de Abeille Paul-Antoine, Adonai Killian, Mareschal Guillaume et moi-même, Coco Mathis.
 
 ![](./img/Sauber-C9.jpg)
 
